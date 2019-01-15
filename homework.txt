@@ -1,0 +1,33 @@
+The Age Calculator :
+
+first store declear var currentYear and birthYear in variable 
+calculate 2 possible ages based the stored values .
+Output them to the screen 
+
+My code solution :
+var currentYear = 2019;
+var birthYear = 1988;
+console.log(currentYear - birthYear);
+the output:31
+console.log(currentYear - birthYear || currentYear - (birthYear-1));
+the output: 31
+console.log(" They are " + currentYear - birthYear || currentYear - (birthYear-1));
+the output: 32
+
+
+The Geometrizer:
+Store a radius into a variable.
+store circumference into a variable , and then calculate the area based on area .
+
+My code solution:
+var radius = 2;
+var pi = 3.14;
+area = pi*radius*radius;
+12.56
+console.log("The area is " + area );
+VM2591:1 The area is 12.56
+var circumference = 2 * pi *radius;
+console.log("The circumference is " + circumference);
+The output: The circumference is 12.56
+var circumference = 2*pi*radius;
+var circumference = (2*pi*radius);
